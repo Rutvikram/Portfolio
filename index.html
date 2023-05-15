@@ -34,8 +34,10 @@
                 <li><a href="#portfolio">My Work</a></li>
             </ul>
         </nav>
-        <a class=" custom-btn btn-16" href="#contact"> Contact</a>
-        <i id="menu-icon" class=" i-con fa-solid fa-bars "></i>
+        <div class="menu-right">
+            <a class=" custom-btn btn-16" href="#contact"> Contact</a>
+            <i id="menu-icon" class=" i-con fa-solid fa-bars "></i>
+        </div>
     </header>
     <!-- Home  section -->
     <section class="Home" id="home">
@@ -204,7 +206,7 @@
     <script>
         const header = document.querySelector("header");
         window.addEventListener("scroll", function () {
-            header.classList.toggle("sticky", window.scrollY > 100)
+            header.classList.toggle("sticky", window.scrollY > 500)
 
         })
 

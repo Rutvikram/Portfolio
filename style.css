@@ -58,7 +58,7 @@ header {
     padding: 22px 10%;
     border-bottom: 1px solid transparent;
     transition: all .45s ease;
-    backdrop-filter: blur(8px);
+    /* backdrop-filter: blur(8px); */
 }
 
 .logo {
@@ -533,7 +533,7 @@ header.sticky {
     font-size: var(--p-font);
     line-height: 1.8;
     margin-bottom: 30px;
-    font-weight:300;
+    font-weight: 300;
 
 }
 
@@ -602,7 +602,7 @@ form textarea {
 }
 
 input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button{
+input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
@@ -657,6 +657,13 @@ input[type=number]::-webkit-outer-spin-button{
 
 }
 
+.menu-right {
+    width: 186px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 1480px) {
     header {
         padding: 12px 2.5%;
@@ -666,6 +673,7 @@ input[type=number]::-webkit-outer-spin-button{
     header.sticky {
         padding: 10px 2.5%;
         transition: .1s;
+        backdrop-filter: blur(8px);
     }
 
     section {
@@ -728,14 +736,14 @@ input[type=number]::-webkit-outer-spin-button{
 
     .navlist {
         position: absolute;
-        top: -300px;
-        right: 0;
-        left: 0;
+        right: 0px;
+        /* right: 0; */
+        left: 1000px;
         display: flex;
         flex-direction: column;
         background: var(--bg-color);
         text-align: left;
-        transition: all .45s ease;
+        /* transition: all .45s ease; */
     }
 
     .navlist a {
@@ -756,7 +764,10 @@ input[type=number]::-webkit-outer-spin-button{
     }
 
     .open {
-        top: 100%;
+        left: 100%;
+        left: 0;
+        top: 61px;
+        transition: all .45s ease;
     }
 
     .home-text {
@@ -766,6 +777,13 @@ input[type=number]::-webkit-outer-spin-button{
 }
 
 @media(max-width:576px) {
+
+    .btn-16 {
+        width: 105px;
+        height: 35px;
+        font-size: 15px;
+    }
+
     .home-text {
         width: 100%;
 
