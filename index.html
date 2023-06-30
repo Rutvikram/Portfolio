@@ -18,7 +18,7 @@
     </style>
 </head>
 
-<body>
+<body class="">
 
     <!-- header section -->
     <header>
@@ -36,6 +36,7 @@
         </nav>
         <div class="menu-right">
             <a class=" custom-btn btn-16" href="#contact"> Contact</a>
+            <button id="mybtn">dark</button>
             <i id="menu-icon" class=" i-con fa-solid fa-bars "></i>
         </div>
     </header>
@@ -155,7 +156,7 @@
                 <div class="layer">
                     <h5>Weather</h5>
                     <p>Check out 10 best Design's updates for the top web Design & Devlopment companies.</p>
-                    <a href="https://rutvikram.github.io/weather/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://rutvikram.github.io/weather/ "><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
 
@@ -178,7 +179,7 @@
             <div class="list">
                 <li><a href="#">9274405077</a></li>
                 <li><a window.location.href="mailto:ramrutvik2001@gmail.com">ramrutvik2001@gmail.com</a></li>
-                <li><a href="./Images/Rutvik Ram_Resume.pdf">Download Resume</a></li>
+                <li><a href="./Images/Rutvik Ram.pdf">Download Resume</a></li>
             </div>
             <div class="contact-icon">
                 <a href="https://www.instagram.com/rutvik__ram/"><i class="fa-brands fa-instagram"></i></a>
@@ -226,6 +227,12 @@
                 $('ul').toggleClass('open');
             })
         });
+
+        const button = document.getElementById("mybtn"); 
+        mybtn.addEventListener("click",()=>{
+            document.body.classList.toggle("dark-mod")
+            document
+        })
 
     </script>
 </body>

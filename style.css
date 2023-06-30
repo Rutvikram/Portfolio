@@ -42,6 +42,10 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
+body.dark-mod {
+    background-color: #ccc;
+    color: #000000f4;
+}
 
 
 header {
@@ -125,7 +129,7 @@ section {
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url(./Images/pxfuel.jpg);
+    background-image:  url(./Images/light-bg.jpg);
     display: flex;
     align-items: center;
     justify-content: flex-start;
