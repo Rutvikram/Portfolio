@@ -42,10 +42,10 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
-body.dark-mod {
+/* body.dark-mod {
     background-color: #ccc;
     color: #000000f4;
-}
+} */
 
 
 header {
