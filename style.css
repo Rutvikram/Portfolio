@@ -570,8 +570,8 @@ header.sticky {
 .contact-icon {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content:flex-start ;
+    gap: 5px;
 }
 
 .contact-icon i {
