@@ -235,6 +235,17 @@ section {
         2px 2px 2px 0px rgba(255, 255, 255, .5),
         2px 2px 2px 0px rgba(255, 255, 255, .5);
     outline: none;
+    
+
+    
+    
+    
+    
+
+
+
+
+   
 }
 
 .btn-16 {
@@ -855,11 +866,26 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 14px;
         width: 42px;
         height: 42px;
+
+
+
     }
     .layer p {
         font-size: 0.9rem;
     }
     .layer h5 {
-        margin-bottom: 5px;
-    }
-}
+     width: auto
+     max-content
+        
+    
+       
+
+max-content
+var(--p-font)
+
+
+
+  
+  
+
+
