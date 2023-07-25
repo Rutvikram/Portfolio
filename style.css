@@ -235,17 +235,17 @@ section {
         2px 2px 2px 0px rgba(255, 255, 255, .5),
         2px 2px 2px 0px rgba(255, 255, 255, .5);
     outline: none;
-    
-
-    
-    
-    
-    
 
 
 
 
-   
+
+
+
+
+
+
+
 }
 
 .btn-16 {
@@ -687,9 +687,16 @@ input[type=number]::-webkit-outer-spin-button {
 
 }
 
-.top i {
+.top>button {
     padding: 10px;
     border-radius: 8px;
+    font-size: 15px;
+    background: var(--main-color);
+    border: none;
+    outline: none;
+}
+
+.top>button>i {
     font-size: 15px;
     color: var(--text-color);
     background: var(--main-color);
@@ -740,6 +747,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     .home-text h3 {
         font-size: 2rem;
+        margin: 0 0 20px;
 
     }
 
@@ -830,23 +838,24 @@ input[type=number]::-webkit-outer-spin-button {
 
     .home-text {
         width: 100%;
-
     }
 
     .home-text h3 {
-        font-size: 1rem;
-
+        font-size: 1.5rem;
     }
 
     .home-text h1 {
-        font-size: 3rem;
-
+        font-size: 2.7rem;
     }
 
     .btn2 span i {
         width: 35px;
         height: 35px;
         font-size: 14px;
+    }
+
+    .btn2 {
+        font-size: 13px;
     }
 
     .btn {
@@ -862,6 +871,13 @@ input[type=number]::-webkit-outer-spin-button {
         text-decoration: none;
         margin-left: auto;
     }
+
+    .contact-form .submit {
+        font-weight: 400;
+        font-size: 14px;
+        width: 140px;
+    }
+
     .layer i {
         font-size: 14px;
         width: 42px;
@@ -870,22 +886,14 @@ input[type=number]::-webkit-outer-spin-button {
 
 
     }
+
     .layer p {
         font-size: 0.9rem;
     }
+
     .layer h5 {
-     width: auto
-     max-content
-        
-    
-       
+        width: auto;
+        margin-bottom: 5px;
 
-max-content
-var(--p-font)
-
-
-
-  
-  
-
-
+    }
+}
