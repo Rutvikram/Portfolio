@@ -183,6 +183,7 @@ section {
 }
 
 .home-text p {
+    max-width: 540px;
     color: var(--second-color);
     font-size: var(--p-font);
     line-height: 1.1;
